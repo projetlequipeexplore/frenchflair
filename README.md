@@ -1,20 +1,14 @@
-# Prix Explore. 
+Pour mettre un commentaire dans le code HTML
+<!-- XXXXXX -->
 
-Ce dossier contient un code source modèle pour la création d'un Explore "vertical".
+Découpage en largeur par 12 colonnes
+w-col-2 => 16.6% 
+w-col-3 => 25%
+w-col-4 => 33.3%
+w-col-5 => 41.7%
+w-col-6 => 50%
 
-Le rendu est acessible sur Github Pages : https://lequipefr.github.io/coquille-explore-vertical/index.html
+Une ligne avec marge est conçue selont le modèle
+col-2 vide / col-5 + col-3 OU col-3 + col-5 / col-2 vide
 
-Si vous n'êtes pas familier avec le développement web, privilégiez la réalisation de votre projet via la plateforme Webflow (cf. mode designer ci-dessous).
-
-## Mode designer
-
-- Clonez le projet sur la plateforme Webflow https://webflow.com/website/lequipe-explore-liverpool. 
-Tutoriel : https://university.webflow.com/lesson/clone-a-project-in-webflow
-- Créez votre propre projet Webflow à partir de ce modèle.
-- Publiez votre projet sur Webflow.io.
-
-## Mode développeur
-
-- Récupérez le code source en téléchargant le Zip ou en clonant le code source.
-- Développez votre projet en local à partir du modèle.
-- Déployez et hébergez votre projet sur internet, via une page Github `https://pages.github.com/` ou sur `http://surge.sh/` par exemple.
+Une ligne pleine largeur est en col-12
