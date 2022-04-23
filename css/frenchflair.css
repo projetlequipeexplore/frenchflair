@@ -8,17 +8,26 @@
     font-weight: bold;
 }
 
-.chap2 {
-    background-color:#fff2cc!important;
-    color:black
-}
-
-.citation {
+.chap1 .citation {
     font-size: 2em;
     font-weight: bold;
     font-style: italic;
     color:#e06666;
 }
+
+.chap2 {
+    background-color:#fff2cc!important;
+    color:black
+}
+
+.chap2 .citation {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    color:#000000;
+    line-height:35px;
+}
+
 .author {
     font-size: 1.2em;
     color:#e06666;
@@ -97,3 +106,23 @@
       width: auto;
       /*min-width:100%;*/
       display: inline-block; }
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.incline {
+    transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -khtml-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    background-color:#1c4587;
+    color: white;
+    font-weight: bold;
+    font-size:1.5em;
+    width: 220px;
+    padding:5px;
+    position:absolute;
+    top:30px;
+}
