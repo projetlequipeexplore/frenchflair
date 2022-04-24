@@ -1,14 +1,14 @@
 body {
     text-align: justify;
 }
+h1{
+    font-size:2em;
+    font-weight: bold;
+}
 
 .chap1 {
     background-color:#1c4587ff !important;
     color:white;
-}
-.chap1 h1{
-    font-size:2em;
-    font-weight: bold;
 }
 .chap1 .citation {
     font-size: 2em;
@@ -16,9 +16,9 @@ body {
     font-style: italic;
     color:#e06666;
     line-height:40px;
+    text-align:center;
 }
 .chap1 .author {
-    font-size: 1.2em;
     color:#e06666;
 }
 
@@ -31,16 +31,16 @@ body {
     font-weight: bold;
     font-style: italic;
     color:#000000;
-    line-height:35px;
+    line-height:40px;
+    text-align:center;
 }
 .chap2 .author {
-    font-size: 1.2em;
     color:#000000;
 }
 
 
 .blanc {
-    color:white;
+    color:white !important;
 }
 
 .noir {
@@ -148,7 +148,7 @@ body {
     position: relative;
  }
 
-#match-ecosse {
+.lieu-photo {
     background-color:#4285f4;
     color: white;
     font-size: 4em;
@@ -174,8 +174,15 @@ body {
     line-height:100px;
 }
 
-#mythe {
+.gros-titre {
     font-size: 4em;
     line-height:100px;
+    text-align:center;
+}
+
+.exergue {
+    border-radius:40px;
+    background-color: #4a86e8ff;
+    padding: 10px;
     text-align:center;
 }

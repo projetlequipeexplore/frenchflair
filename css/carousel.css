@@ -13,7 +13,11 @@
   min-width: 200px;
   color:black;
 }
-.w20 {
+.chap1 .w20 {
   font-size: 40px;
   color: white;
+}
+.chap2 .w20 {
+  font-size: 40px;
+  color: black;
 }
