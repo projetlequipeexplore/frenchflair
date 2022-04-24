@@ -12,3 +12,10 @@ Une ligne avec marge est conçue selont le modèle
 col-2 vide / col-5 + col-3 OU col-3 + col-5 / col-2 vide
 
 Une ligne pleine largeur est en col-12
+
+Pour intégrer une vidéo youtube
+On a computer, go to the YouTube video or playlist you want to embed.
+Click SHARE .
+From the list of Share options, click Embed.
+From the box that appears, copy the HTML code.
+Paste the code into your website HTML.

@@ -13,6 +13,7 @@
     font-weight: bold;
     font-style: italic;
     color:#e06666;
+    line-height:40px;
 }
 
 .chap2 {
@@ -35,11 +36,6 @@
 
 .blanc {
     color:white;
-}
-
-.p20{
-    margin:auto 20px;
-    line-height:40px;
 }
 
 .a-img-txt{
@@ -81,31 +77,41 @@
     overflow-y: hidden;
     height: 400px;
     max-height: 80%;
-    margin-bottom: 50px; }
-    @media (min-width: 992px) {
-      .scrollLateral {
+    margin-bottom: 50px; 
+}
+@media (min-width: 992px) {
+    .scrollLateral {
         position: relative;
         height: 100%;
-        overflow: hidden; } }
+        overflow: hidden; 
+    } 
+}
+.scrollLateral__content {
+    height: 100%;
+    max-height: 100%;
+    min-width: 768px;
+    display: inline-block; 
+}
+      
+@media (min-width: 992px) {
     .scrollLateral__content {
-      height: 100%;
-      max-height: 100%;
-      min-width: 768px;
-      display: inline-block; }
-      @media (min-width: 992px) {
-        .scrollLateral__content {
-          position: absolute;
-          display: block; } }
-      .scrollLateral__content.fixed {
-        position: fixed; }
-      .scrollLateral__content.absbottom {
-        bottom: 0; }
-    .scrollLateral__resizable {
-      height: 100%;
-      max-width: 10000px;
-      width: auto;
-      /*min-width:100%;*/
-      display: inline-block; }
+        position: absolute;
+        display: block; 
+    } 
+}
+.scrollLateral__content.fixed {
+    position: fixed; 
+}
+.scrollLateral__content.absbottom {
+    bottom: 0; 
+}
+.scrollLateral__resizable {
+    height: 100%;
+    max-width: 10000px;
+    width: auto;
+    /*min-width:100%;*/
+    display: inline-block; 
+}
 
 .mt20 {
     margin-top: 20px;
@@ -125,4 +131,34 @@
     padding:5px;
     position:absolute;
     top:30px;
+}
+
+.container {
+    position: relative;
+ }
+
+#match-ecosse {
+    background-color:#4285f4;
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    padding:10px;
+    float:left;
+    line-height:100px;
+}
+
+#citation-ntamack {
+    background-color:none;
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+    position:absolute;
+    top: 50px;
+    right: 20px;
+    padding:10px;
+    float:right;
+    line-height:100px;
 }
