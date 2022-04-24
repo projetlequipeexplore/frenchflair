@@ -186,3 +186,9 @@ h1{
     padding: 10px;
     text-align:center;
 }
+
+.jaune {
+    padding:20px;
+    background-color: #ffff00;
+    color: black;
+}
