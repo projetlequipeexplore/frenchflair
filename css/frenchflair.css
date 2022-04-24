@@ -1,13 +1,15 @@
+body {
+    text-align: justify;
+}
+
 .chap1 {
     background-color:#1c4587ff !important;
     color:white;
 }
-
 .chap1 h1{
     font-size:2em;
     font-weight: bold;
 }
-
 .chap1 .citation {
     font-size: 2em;
     font-weight: bold;
@@ -15,12 +17,15 @@
     color:#e06666;
     line-height:40px;
 }
+.chap1 .author {
+    font-size: 1.2em;
+    color:#e06666;
+}
 
 .chap2 {
     background-color:#fff2cc!important;
     color:black
 }
-
 .chap2 .citation {
     font-size: 2em;
     font-weight: bold;
@@ -28,18 +33,24 @@
     color:#000000;
     line-height:35px;
 }
-
-.author {
+.chap2 .author {
     font-size: 1.2em;
-    color:#e06666;
+    color:#000000;
 }
+
 
 .blanc {
     color:white;
 }
 
+.noir {
+    color: black !important;
+}
+
 .a-img-txt{
     display:grid; 
+    font-size:2em;
+    line-height:30px;
 }
 .a-img-txt li{
     list-style: none;
@@ -161,4 +172,10 @@
     padding:10px;
     float:right;
     line-height:100px;
+}
+
+#mythe {
+    font-size: 4em;
+    line-height:100px;
+    text-align:center;
 }
