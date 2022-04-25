@@ -256,3 +256,36 @@ h1{
     font-weight: 900;
     width:33%;
 }
+
+.legende-justifie {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+    background-color: #FFFFFF;
+    opacity:0.45;
+    padding: 20px;
+    color: #000000;
+    font-weight: 900;
+    width:100%;
+}
+
+.zoom {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+}
+.zoom:hover {
+    -ms-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    -o-transform: scale(2.5);
+    transform: scale(2.5);
+    position: relative;
+    z-index: 100;
+    left:50%;
+}
