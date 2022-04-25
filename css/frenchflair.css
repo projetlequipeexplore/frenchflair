@@ -196,3 +196,63 @@ h1{
     background-color: #ffff00;
     color: black;
 }
+
+.w-col {
+    position:relative;
+}
+
+.legende-droite-haut {
+    float: right;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1000;
+    background-color: #FFFFFF;
+    opacity:0.45;
+    padding: 25px 40px;
+    color: #000000;
+    font-weight: 900;
+    width:33%;
+}
+
+.legende-droite-bas {
+    float: right;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1000;
+    background-color: #FFFFFF;
+    opacity:0.45;
+    padding: 25px 40px;
+    color: #000000;
+    font-weight: 900;
+    width:33%;
+}
+
+.legende-gauche-haut {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+    background-color: #FFFFFF;
+    opacity:0.45;
+    padding: 25px 40px;
+    color: #000000;
+    font-weight: 900;
+    width:33%;
+}
+
+.legende-gauche-bas {
+    float: left;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1000;
+    background-color: #FFFFFF;
+    opacity:0.45;
+    padding: 25px 40px;
+    color: #000000;
+    font-weight: 900;
+    width:33%;
+}
