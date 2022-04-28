@@ -665,49 +665,43 @@
 				<div class="w-col w-col-2"></div>
 			</div>
 			<!-- Page 31 -->
-			<!-- GG Ca sera un mélange d'une image pleine page en png et de 2 col de texte à rajouter à droite et à gauche
- 				L'image c'est Page_31.png -->
-			<!-- DG je comprends qu'il faut rajouter les textes sur l'image ?? 
-				Faut-il le faire au survol de la souris ?
-			-->
 			<div class="columnssection w-row">
-				<div class="w-col w-col-12">
+				<div class="w-col w-col-12 contenant">
+					<div class="texte-gauche">
+						<h1>Bernard Laporte</h1>
+						<ul>
+							<li>Sélectionneur 1999 - 2007</li>
+							<li>Vainqueur VI Nations 2002 (Grand Chelem)</li>
+							<li>Vainqueur VI Nations 2004 (Grand Chelem)</li>
+							<li>Vainqueur VI Nations 2006</li>
+							<li>Vainqueur VI Nations 2007</li>
+							<li>Coupe du monde : 4e en 2003 et 2007</li>
+						</ul>
+						<p class="colparagraph">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie enim imperdiet diam tristique ultricies. 
+							Mauris lobortis nulla sapien, vel dapibus dui porttitor id. Proin rhoncus turpis magna, eget gravida orci vehicula vel.
+							Phasellus porta velit sed ligula sodales, a iaculis mi malesuada. 
+							Maecenas ipsum massa, accumsan ac augue et, ultrices consequat augue. 
+							Aenean faucibus nisi vel tortor pharetra, et auctor odio pulvinar. 
+						</p>
+					</div>
 					<img src="images/Page_31.png" />
-				</div>
-				<div class="w-col w-col-2"></div>
-				<div class="w-col w-col-2">
-					<h1>Bernard Laporte</h1>
-					<ul>
-						<li>Sélectionneur 1999 - 2007</li>
-						<li>Vainqueur VI Nations 2002 (Grand Chelem)</li>
-						<li>Vainqueur VI Nations 2004 (Grand Chelem)</li>
-						<li>Vainqueur VI Nations 2006</li>
-						<li>Vainqueur VI Nations 2007</li>
-						<li>Coupe du monde : 4e en 2003 et 2007</li>
-					</ul>
-					<p class="colparagraph">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie enim imperdiet diam tristique ultricies. 
-						Mauris lobortis nulla sapien, vel dapibus dui porttitor id. Proin rhoncus turpis magna, eget gravida orci vehicula vel.
-						Phasellus porta velit sed ligula sodales, a iaculis mi malesuada. 
-						Maecenas ipsum massa, accumsan ac augue et, ultrices consequat augue. 
-						Aenean faucibus nisi vel tortor pharetra, et auctor odio pulvinar. 
-					</p>
-				</div>
-				<div class="w-col w-col-2">
-					<h1>Marc Lievremont
-					</h1>
-					<ul>
-						<li>Sélectionneur 2007 - 2011</li>
-						<li>Vainqueur VI Nations 2010 (Grand Chelem)</li>
-						<li>Finaliste coupe du monde 2011</li>
-					</ul>
-					<p class="colparagraph">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie enim imperdiet diam tristique ultricies. 
-						Mauris lobortis nulla sapien, vel dapibus dui porttitor id. Proin rhoncus turpis magna, eget gravida orci vehicula vel.
-						Phasellus porta velit sed ligula sodales, a iaculis mi malesuada. 
-						Maecenas ipsum massa, accumsan ac augue et, ultrices consequat augue. 
-						Aenean faucibus nisi vel tortor pharetra, et auctor odio pulvinar.					
-					</p>
+					<div class="texte-droite">
+						<h1>Marc Lievremont
+						</h1>
+						<ul>
+							<li>Sélectionneur 2007 - 2011</li>
+							<li>Vainqueur VI Nations 2010 (Grand Chelem)</li>
+							<li>Finaliste coupe du monde 2011</li>
+						</ul>
+						<p class="colparagraph">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie enim imperdiet diam tristique ultricies. 
+							Mauris lobortis nulla sapien, vel dapibus dui porttitor id. Proin rhoncus turpis magna, eget gravida orci vehicula vel.
+							Phasellus porta velit sed ligula sodales, a iaculis mi malesuada. 
+							Maecenas ipsum massa, accumsan ac augue et, ultrices consequat augue. 
+							Aenean faucibus nisi vel tortor pharetra, et auctor odio pulvinar.					
+						</p>
+					</div>
 				</div>
 				<div class="w-col w-col-2"></div>
 			</div>
@@ -791,14 +785,21 @@
 				<div class="w-col w-col-2"></div>
 			</div>
 			<!-- Page 36 -->
-			<!-- serait mieux de faire l'image en png avec une transparence sinon la différence de bleu crache
- 				GG Normalement c'est bon -->
 			<div class="columnssection w-row">
-				<div class="w-col w-col-2"></div>
-				<div class="w-col w-col-8">
-					<img src="images/Page_36.png" loading="lazy" alt="">
+				
+				<div class="w-col w-col-12">
+					<img src="images/Page_36.png" loading="lazy" alt="" usemap="#map36" class="map">
+					<map name="map36">
+						<area shape="poly" coords="820,675,985,764,985,935,835,1023,689,935,691,758,986,765" alt="Jacques Brunel" onclick="alert('Jacques Brunel')">
+						<area shape="poly" coords="1161,677,1305,767,1305,937,1151,1023,1007,932,1008,765" alt="Guy Novès">
+						<area shape="poly" coords="996,955,1146,1045,1144,1217,993,1293,844,1212,849,1040" alt="Philippe Saint-André">
+						<area alt="% victoire Jacques Brunel" title="" href="" coords="133,774,271,774,271,870,133,870" shape="poly">
+						<area alt="charnières utilisées Jacques Brunel" title="" href="" coords="1492,820,1656,820,1656,920,1492,920" shape="poly">
+						<area alt="points encaissés Jacques Brunel" title="" href="" coords="1393,1213,1641,1213,1641,1325,1390,1324" shape="poly">
+						<area alt="points marqués Jacques Brunel" title="" href="" coords="304,1212,561,1212,559,1322,304,1322" shape="poly">
+					  </map>
 				</div>
-				<div class="w-col w-col-2"></div>	
+			
 			</div>
 			<!-- Page 37 -->
 			<div class="columnssection w-row">
@@ -1089,6 +1090,10 @@
 	<script src="js/lequipe-explore-frenchflair.js" type="text/javascript"></script>
 	<script src="js/carousel.js" type="text/javascript"></script>
 	<script src="js/script.min.js" type="text/javascript"></script>
+	<script src="js/maphighlight.js" type="text/javascript"></script>
+	<script type="text/javascript">$(function() {
+		$('.map').maphilight();
+	});</script>
 	<!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>
