@@ -261,9 +261,11 @@
 			<!-- Page 15 -->
 			<div class="columnssection w-row">
 				<div class="w-col w-col-2"></div>
-				<!-- GG Ici il faudrait intégrer l'image qui s'appelle Page_15.png et faire en sorte qu'elle soit au-dessus du texte -->
+				
 				<div class="w-col w-col-5">
-					<img src="images/Page_15.jpg" loading="lazy" alt="">
+					<!-- GG Ici il faudrait intégrer l'image qui s'appelle Page_15.png et faire en sorte qu'elle soit au-dessus du texte -->
+					<!-- DG Image beaucoup trop haute revoir la mise en page ensemble -->
+					<img src="images/Page_15.png" loading="lazy" alt="">
 					<p class="colparagraph">
 						<strong class="lettrine">Le</strong> 26 février 2022, à Murrayfield, le match du jour ressemble à un concert. 
 						Tout autour du terrain, les chœurs écossais résonnent à l’unisson derrière le XV du Chardon qui espère priver les Français du Grand Chelem. 
@@ -287,7 +289,7 @@
 			<!-- Page 16 -->
 			<div class="columnssection w-row">
 				<div class="w-col w-col-2"></div>
-				<div class="w-col w-col-8 blanc">
+				<div class="w-col w-col-8">
 					<p class="colparagraph">
 						Il se lance, ou relance plutôt. Le virtuose entame une course folle de près de 60 mètres, mystifiant plusieurs adversaires sur son passage. 
 						Mais le récital s’arrête brusquement dans les 22 mètres adverses. Quelques secondes de blanc, et il reprend de plus belle. Les musiciens ont suivi. 
@@ -771,14 +773,11 @@
  								Mais je ne sais pas où te mettre l'image -->
 							<!-- DG à la place du texte figcaption 
 							par contre c'est un peu grand comme picto non ?
-							et où est la bande son ? -->
-							<img src="images/Page_35.png" loading="lazy" alt="">
-							<audio
-								controls
-								src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3">
-									Your browser does not support the
-									<code>audio</code> element.
-							</audio>
+							et où est la bande son ? 
+							DG il vous suffit de changer l'attribut src de la balise <audio>
+						-->
+							<img src="images/Page_35.png" loading="lazy" alt="" onclick="play(35)" class="audio">
+							<audio id="audio35" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"></audio>
 						</figure>
 					</center>
 				</div>
@@ -873,10 +872,13 @@
 			<!-- Page 41 -->
 			<div class="columnssection w-row">
 				<div class="w-col w-col-12">
-					<img src="images/Page_41.png" loading="lazy" alt="">
-					<!-- GG Comment intégrer de l'audio sur l'image ??
- 					GG Il faut intégrer l'image Page_41.png en pleine page -->
-					<!--DG pour intégrer de l'audio sur l'image c l'exemple de la guitare que je t'avais envoyé -->
+					<img src="images/Page_41.png" loading="lazy" title="Cliquer sur l'image pour écouter les commentaires" onclick="play(41)">
+					<audio id="audio41" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"></audio>
+					<!--DG j'ai intégré l'audio sur l'image 
+					par contre il vous faudrait préciser les commentaires
+					attribut tile de la balise img ci-dessus 
+					et changer l'atribut src de la balise <audio> pour la bande son
+				-->
 				</div>
 			</div>
 			<!-- Page 42 -->
@@ -946,7 +948,9 @@
 						nous n’avons toujours pas de Coupe du monde. Le rugby français n’est qu’au début du chemin. »
 					</p>
 				</div>
-				<!-- GG J'espère que là j'ai pas fait de bêtise pour intégrer l'image -->
+				<!-- GG J'espère que là j'ai pas fait de bêtise pour intégrer l'image
+				DG non
+			 	-->
 				<div class="w-col w-col-3">
 					<!-- GG Pourquoi c'est la class jaune ? -->
 					<!-- DG c'était jaune sur le chemin de fer -->
@@ -1011,11 +1015,14 @@
 						Un peu comme, avant eux, Abdelatif Benazzi, Jean-Pierre Rives ou Jean-Claude Skrela. 
 						Ils jouent dans le petit périmètre pour concentrer la défense adverse au centre du terrain, et l’épuiser avec du jeu au sol.
 					</p>
+					<!-- GG ICI EN DESSOUS DU TEXTE IL FAUT INTEGRER UNE DERNIERE VIDEO 
+					DG changer l'attribut src
+					-->
 					<iframe class="embedly-embed" 
 					src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.dailymotion.com%2Fembed%2Fvideo%2Fk6ixtC9wE2Xgg6vtP6J&display_name=Dailymotion&url=https%3A%2F%2Fwww.dailymotion.com%2Fvideo%2Fk2h5O2lvObf5d0vtP6J&image=https%3A%2F%2Fs2.dmcdn.net%2Fv%2FRkVzr1VyqAxuTUbHs%2Fx240&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=dailymotion" scrolling="no" title="Dailymotion embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true">
 					</iframe>
 				</div>
-				<!-- GG ICI EN DESSOUS DU TEXTE IL FAUT INTEGRER UNE DERNIERE VIDEO -->
+				
 				<div class="w-col w-col-2"></div>
 			</div>
 			<!-- Page 49 -->
@@ -1094,6 +1101,11 @@
 	<script type="text/javascript">$(function() {
 		$('.map').maphilight();
 	});</script>
+	<script>
+		let play = function(id){
+			document.getElementById("audio"+id).play();
+		}
+	</script>
 	<!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>
