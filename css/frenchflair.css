@@ -1,8 +1,15 @@
 body {
     text-align: justify;
+    font-family: Din-Regular, sans-serif;
 }
+.colparagraph {
+    padding-right: 20px;
+    font-size: 17px;
+    line-height: 26px;
+}
+
 h1{
-    font-size:2em;
+    font-size:3.5em;
     font-weight: bold;
 }
 .chap0 .citation {
@@ -165,6 +172,7 @@ h1{
     padding:5px;
     position:absolute;
     top:30px;
+    left:38%
 }
 
 .container {
@@ -465,6 +473,18 @@ h1{
 .contenant {
     position: relative;
 }
+.texte-haut-gauche {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 40%;
+}
+.texte-haut-droite {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 40%;
+}
 .texte-gauche {
     position: absolute;
     top: 50%;
@@ -479,4 +499,31 @@ h1{
 }
 .audio {
     width:200px;
+}
+#texte-jamie-wall {
+    position: absolute;
+    top: 35%;
+    width: 50%;
+    text-align:justify;
+    left:5%;
+}
+#texte-rob-kitson {
+    position: absolute;
+    top: 35%;
+    width: 50%;
+    text-align:justify;
+    left:45%;
+}
+.droite {
+    text-align:right;
+}
+h2.etranger {
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    font-size:1.6em;
+    padding:5px 10px;
+}
+ul.joueur li {
+    font-size:17px !important;
 }

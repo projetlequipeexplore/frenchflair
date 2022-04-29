@@ -33,12 +33,15 @@
 		</header>
 		<div class="chap0">
 			<!-- Chapô Page 1 -->
-			<div data-w-id="c8897e39-ade1-48dc-e88c-97e8e1df77a2" class="coversection">
-				<img src="images/Page_1.png" loading="lazy" sizes="(max-width: 1919px) 100vw, 1920px" alt="" class="imagedesk">
+			<div class="coversection">
+				<img src="images/Page_1_recoupee.png" loading="lazy" sizes="(max-width: 1919px) 100vw, 1920px" alt="" class="imagedesk">
 			<!-- GG Est-ce qu'il vaudrait pas mieux mettre ça
  			<div class="columnssection w-row">
-				<img src="images/Page_5.png" loading="lazy" alt=""> 
-				?? -->
+				 DG j'ai essayé et ça fait apparaitre le haut de la première photo 
+				 => class=coversection assure que la photo d'entrée soit seule à l'écran
+				 DG j'ai recoupé la photo marges haute et basse pour être mieux cadrée
+				 l'originale Page_1 est conservée
+				 -->
 			</div>
 			<!-- Page 2 -->
 			<div class="columnssection w-row">
@@ -131,7 +134,7 @@
 		<div class="chap1">
 			<!-- Page 5 -->
 			<div class="columnssection w-row">
-				<img src="images/Page_5.png" loading="lazy" alt="">
+				<img src="images/Page_5_recoupee.png" loading="lazy" alt="">
 			</div>
 			<!-- Page 6 -->
 			<div class="w-row" style="max-height:1950px !important">
@@ -147,7 +150,7 @@
 				<div class="w-col w-col-2"></div>
 				<div class="w-col w-col-5">
 					<p class="colparagraph">
-						<strong class="lettrine">Un</strong><strong>essai venu du bout du monde.</strong>
+						<strong class="lettrine">Un</strong><strong> essai venu du bout du monde.</strong>
 						<br>De 18 534 kilomètres exactement. À Auckland, un soir de juillet 1994 et dans un Eden Park plein à craquer, les Bleus marquent l'histoire du rugby français.
 					</p>
 					<p class="colparagraph">
@@ -166,7 +169,7 @@
 						GG Fait
 						DG l'image est trop haute ça décale tout vers le bas
 					-->
-					<img src="images/Page_7.png" loading="lazy" alt="">
+					<img src="images/Page_7_recoupee.png" loading="lazy" alt="">
 				</div>
 				<div class="w-col w-col-2"></div>
 			</div>
@@ -202,42 +205,31 @@
 			</div>			
 			<!-- Page 11 -->
 			<div class="columnssection w-row">
-				<div class="w-col w-col-2"></div>
-				<div class="w-col w-col-5">
-					<h1>Pierre Villepreux, le théoricien</h1>
-					<p class="colparagraph">
-						<strong class="lettrine">Pas</strong> besoin de forcer Pierre Villepreux pour parler de French flair. 
-						Prenez un stylo, un bloc-note, vous n’avez plus qu’à écouter. 
-						Dans le centre de droit et d’économie du sport, à Limoges, où il enseigne, l’ex-sélectionneur du XV de France (1995-1999) démarre sa leçon : « C’est de l’intelligence en jeu. 
-						Ce sont des actions qui partent d’une initiative individuelle et qui se transforment en mouvement collectif huilé, qui amène à un essai le plus souvent. »
-					</p> 
-					<p class="colparagraph">
-						Les yeux qui pétillent et le sourire aux lèvres, cet amoureux du ballon ovale raconte comment il a poursuivi sa passion au-delà du terrain. 
-						Au moment de passer son Capes, il rencontre René Deleplace, chercheur et enseignant, considéré comme le premier théoricien du rugby français. Il devient très vite le mentor de Villepreux. 
-						« Peu avant sa mort, il m’a fait le meilleur compliment possible : “Pierre, c’est toi qui as vraiment simplifié ma façon de présenter le rugby, tu l’as rendu accessible à tous”. »
-					</p>
-					<!-- Page 12 -->
-					<p class="colparagraph">
-						À 78 ans, Pierre Villepreux a soif de partage. 
-						Théoriser, analyser, raconter le rugby français, c’est sa façon de faire perdurer le French flair. 
-						Durant toute sa carrière de coach, il a tenté de l’inculquer à ses joueurs : « On le met en pratique à l’entraînement par la liberté que l’on va laisser aux joueurs et par la création de situations inattendues. 
-						Plein d’aléas où le joueur va être obligé de réagir avec rapidité sans trop savoir ce qu’il va faire, mais avec l’obligation de le faire. » Émile Ntamack se souvient : « Il nous disait “Allez y trompez-vous, faites, osez”. 
-						Il nous a toujours enguirlandé quand on ne faisait rien, mais jamais quand on se trompait. »
-					</p>
-				</div>
-				<div class="w-col w-col-3 a-img-txt">
+				<div class="w-col w-col-12 contenant">
+					<div class="texte-haut-gauche">
+						<h1>Pierre Villepreux, le théoricien</h1>
+						<p class="colparagraph">
+							<strong class="lettrine">Pas</strong> besoin de forcer Pierre Villepreux pour parler de French flair. 
+							Prenez un stylo, un bloc-note, vous n’avez plus qu’à écouter. 
+							Dans le centre de droit et d’économie du sport, à Limoges, où il enseigne, l’ex-sélectionneur du XV de France (1995-1999) démarre sa leçon : « C’est de l’intelligence en jeu. 
+							Ce sont des actions qui partent d’une initiative individuelle et qui se transforment en mouvement collectif huilé, qui amène à un essai le plus souvent. »
+						</p>
+						<p class="colparagraph">
+							Les yeux qui pétillent et le sourire aux lèvres, cet amoureux du ballon ovale raconte comment il a poursuivi sa passion au-delà du terrain. 
+							Au moment de passer son Capes, il rencontre René Deleplace, chercheur et enseignant, considéré comme le premier théoricien du rugby français. Il devient très vite le mentor de Villepreux. 
+							« Peu avant sa mort, il m’a fait le meilleur compliment possible : “Pierre, c’est toi qui as vraiment simplifié ma façon de présenter le rugby, tu l’as rendu accessible à tous”. »
+						</p>
+						<!-- Page 12 -->
+						<p class="colparagraph">
+							À 78 ans, Pierre Villepreux a soif de partage. 
+							Théoriser, analyser, raconter le rugby français, c’est sa façon de faire perdurer le French flair. 
+							Durant toute sa carrière de coach, il a tenté de l’inculquer à ses joueurs : « On le met en pratique à l’entraînement par la liberté que l’on va laisser aux joueurs et par la création de situations inattendues. 
+							Plein d’aléas où le joueur va être obligé de réagir avec rapidité sans trop savoir ce qu’il va faire, mais avec l’obligation de le faire. » Émile Ntamack se souvient : « Il nous disait “Allez y trompez-vous, faites, osez”. 
+							Il nous a toujours enguirlandé quand on ne faisait rien, mais jamais quand on se trompait. »
+						</p>
+					</div>
 					<img src="images/Page_11.png" loading="lazy" alt="" class="a-img">
-					<span class="a-txt">
-						<ul>
-							<li>Né le 5 juillet 1943</li>
-							<li>1967-1972 : joueur EDF</li>
-							<li>1995-1999 : entraîneur EDF</li>
-							<li>1 Grand Chelem joueur (1968)</li>
-							<li>2 Grand Chelem entraîneur (97 et 98)</li>
-						</ul>
-					</span>
 				</div>
-				<div class="w-col w-col-2"></div>
 			</div>
 			<!-- Page 13 -->
 			<div class="columnssection w-row">
@@ -266,12 +258,17 @@
 				<div class="w-col w-col-5">
 					<!-- GG Ici il faudrait intégrer l'image qui s'appelle Page_15.png et faire en sorte qu'elle soit au-dessus du texte -->
 					<!-- DG Image beaucoup trop haute revoir la mise en page ensemble -->
-					<img src="images/Page_15.png" loading="lazy" alt="">
+					<img src="images/Page_15_recoupee.png" loading="lazy" alt="">
 					<p class="colparagraph">
 						<strong class="lettrine">Le</strong> 26 février 2022, à Murrayfield, le match du jour ressemble à un concert. 
 						Tout autour du terrain, les chœurs écossais résonnent à l’unisson derrière le XV du Chardon qui espère priver les Français du Grand Chelem. 
 						La mélodie a débuté depuis 7 minutes et 12 secondes. Sur scène, Antoine Dupont est à la baguette dans ses 22 mètres. 
 						À l’approche d’un grand ballon de dégagement qu’il s’apprête à recevoir, il hésite. Continuer la partition ou en écrire une nouvelle ?
+					</p>
+					<p class="colparagraph">
+						Il se lance, ou relance plutôt. Le virtuose entame une course folle de près de 60 mètres, mystifiant plusieurs adversaires sur son passage. 
+						Mais le récital s’arrête brusquement dans les 22 mètres adverses. Quelques secondes de blanc, et il reprend de plus belle. Les musiciens ont suivi. 
+						Gaël Fickou en renfort, Cyril Baille transperce un premier rideau, Julien Marchand un deuxième puis passe après contact pour Paul Willemse, qui n’a plus qu’à conclure.  
 					</p>
 				</div> 
 				<div class="w-col w-col-3">
@@ -290,11 +287,6 @@
 				<div class="w-col w-col-2"></div>
 				<div class="w-col w-col-8">
 					<p class="colparagraph">
-						Il se lance, ou relance plutôt. Le virtuose entame une course folle de près de 60 mètres, mystifiant plusieurs adversaires sur son passage. 
-						Mais le récital s’arrête brusquement dans les 22 mètres adverses. Quelques secondes de blanc, et il reprend de plus belle. Les musiciens ont suivi. 
-						Gaël Fickou en renfort, Cyril Baille transperce un premier rideau, Julien Marchand un deuxième puis passe après contact pour Paul Willemse, qui n’a plus qu’à conclure.  
-					</p>
-					<p class="colparagraph">
 						« Le French flair, c’est quand l’orchestre se met à jouer ensemble, appuie Émile Ntamack. 
 						Il y a une initiative au départ d’un joueur, mais de suite les autres se mettent au diapason, perpétuent l’action et la rendent efficace. 
 						Ce n’est pas simplement un exploit, ça a aussi une connotation collective. » Tous les plus grands essais que l’on qualifie de French flair suivent cette méthode. 
@@ -312,7 +304,7 @@
 			<!-- Page 18 -->
 			<div class="columnssection w-row">
 				<div class="w-col w-col-2"></div>
-				<div class="w-col w-col-4">
+				<div class="w-col w-col-6">
 					<p class="colparagraph">
 						<strong class="lettrine">La</strong> légende raconte que le terme « French flair » est né le soir d'une rencontre des Cinq Nations entre la France et le pays de Galles, un 23 mars 1963. 
 						Le score peu fantasque au coup de sifflet final (5-3) ne reflète pas le jeu inspiré et déroutant, mené par les frères André et Guy Boniface ou le « Monsieur Drop » Pierre Albaladejo. 
@@ -325,7 +317,7 @@
 						« Elle était utilisée depuis bien longtemps pour décrire l'approche tricolore du rugby. À l'époque, les Français avaient une capacité apparemment innée à jouer, alors que le rugby anglais avait tendance à être lourd et stéréotypé. »
 					</p>
 				</div>
-				<div class="w-col w-col-4">
+				<div class="w-col w-col-2">
 					<img src="images/Page_18.png" loading="lazy" alt="">
 					<!-- GG ici c'est une seule image qui contient les 3 photos -->
 					<!-- DG c'était pas la bonne extension .png au lieu de .jpg -->
@@ -338,7 +330,7 @@
 				<div class="w-col w-col-8 citation">
 					<!-- GG à la place de ça il faut intégrer l'image Page_19_1 qui est la citation -->
 					<!-- DG image trop haute il faudrait couper les marges en haut et bas -->
-					<img src="images/Page_19_1.png" loading="lazy" alt="">
+					<img src="images/Page_19_1_recoupee.png" loading="lazy" alt="">
 				</div>
 				<div class="w-col w-col-2"></div>
 			</div>
@@ -363,71 +355,74 @@
 				<div class="w-col w-col-2"></div>
 			</div>
 			<!-- Page 20 -->
-			<!-- Il faudrait que les photos aient la même taille idéalement avec le texte blanc sur fonds noir-->
+			<!--
+				 DG Il faudrait que les photos aient la même taille idéalement avec le texte blanc sur fonds noir
+				 tu me demandes de les mettre en pleine page mais j'ai deux images donc j'ai mis moitié moitié => col-6
+			-->
 			<div class="columnssection w-row">
-				<div class="w-col w-col-2"></div>
-				<div class="w-col w-col-4">
+				<div class="w-col w-col-6 contenant droite">
 					<div class="incline">VU DE L'ETRANGER</div>
 					<!-- DG image trop haute il faudrait couper les marges en haut et bas -->
 					<!-- ou alors me dire si il faut écrire le texte sur l'image i.e sur fonds gris donc en blanc ?-->
-					<img src="images/Page_20_1.png" loading="lazy" alt="">
-					<p class="colparagraph mt20">
-						<strong class="lettrine">Le</strong> French flair est avant tout « un état d’esprit » pour Robert Kitson. 
-						Une notion irrationnelle, propre au rugby français, dont l’ingrédient principal est l’inattendu. 
-						Un héritage qui remonte à André et Guy Boniface, Serge Blanco, mais qui n’est pas omniprésent dans le jeu du XV de France : « Je ne pense pas que c’est là tout le temps. Un peu comme la potion magique d’Astérix, parfois il apparaît. » 
-						Une potion magique dans laquelle les joueurs puisent pour réaliser les exploits qui marquent l’histoire du sport. 
-						Jeune journaliste, Robert Kitson assiste en 1991 à « l’essai du siècle » à Twickenham (Londres). Une action qu’il n’oubliera jamais : « Aucune autre équipe au monde n’aurait pu ne serait-ce que penser à marquer cet essai. »
-					</p>
+					<img src="images/Page_20_1.png" loading="lazy" alt="">					
+					<div id="texte-rob-kitson">
+						<h2 class="etranger">ROB KITSON, journaliste the Guardian</h2>
+						<p class="colparagraph">
+							<strong class="lettrine">Le</strong> French flair est avant tout « un état d’esprit » pour Robert Kitson. 
+							Une notion irrationnelle, propre au rugby français, dont l’ingrédient principal est l’inattendu. 
+							Un héritage qui remonte à André et Guy Boniface, Serge Blanco, mais qui n’est pas omniprésent dans le jeu du XV de France : « Je ne pense pas que c’est là tout le temps. Un peu comme la potion magique d’Astérix, parfois il apparaît. » 
+							Une potion magique dans laquelle les joueurs puisent pour réaliser les exploits qui marquent l’histoire du sport. 
+							Jeune journaliste, Robert Kitson assiste en 1991 à « l’essai du siècle » à Twickenham (Londres). Une action qu’il n’oubliera jamais : « Aucune autre équipe au monde n’aurait pu ne serait-ce que penser à marquer cet essai. »
+						</p>
+					</div>
 				</div>
-				<div class="w-col w-col-4">
+				<div class="w-col w-col-6 contenant">
 					<!-- DG c'était pas la bonne extension .png au lieu de .jpg -->
 					<!-- DG image trop haute il faudrait couper les marges en haut et bas et faire en sorte que 20_1 et 20_2 aient la même taille -->
 					<!-- ou alors me dire si il faut écrire le texte sur l'image i.e sur fonds ocre donc en blanc ?-->
-					<img src="images/Page_20_2.png" loading="lazy" alt="">
-					<p class="colparagraph mt20">
-						<strong class="lettrine">« Imprévisible »</strong>, c’est le premier mot qui vient à l’esprit de Jamie Wall quand on lui parle de French flair. 
-						Témoin privilégié de l’essai du bout du monde en 1994 à Eden Park, ce journaliste néo-zélandais raconte : « Ma tête a failli exploser. 
-						C'est le meilleur essai que j’ai jamais vu. Un éclair de génie. » Pour lui, cette singularité, cette touche spéciale, c’est de « jouer avec le cœur et pas la tête ». 
-						Un jeu libéré ne répondant à aucune règle, ce qui le rend illisible pour les adversaires. Aux sceptiques du French flair, Jamie Wall répond : « C’est magique et unique, et parfois vous devez croire en la magie. Je suis désolé pour les gens qui n’y croient pas ! »
-					</p>
+					<img src="images/Page_20_2.png" loading="lazy" alt="">		
+					<div id="texte-jamie-wall">
+						<h2 class="etranger">JAMIE WALL, journaliste indépendant</h2>
+						<p class="colparagraph">
+							<strong class="lettrine">« Imprévisible »</strong>, c’est le premier mot qui vient à l’esprit de Jamie Wall quand on lui parle de French flair. 
+							Témoin privilégié de l’essai du bout du monde en 1994 à Eden Park, ce journaliste néo-zélandais raconte : « Ma tête a failli exploser. 
+							C'est le meilleur essai que j’ai jamais vu. Un éclair de génie. » Pour lui, cette singularité, cette touche spéciale, c’est de « jouer avec le cœur et pas la tête ». 
+							Un jeu libéré ne répondant à aucune règle, ce qui le rend illisible pour les adversaires. Aux sceptiques du French flair, Jamie Wall répond : « C’est magique et unique, et parfois vous devez croire en la magie. Je suis désolé pour les gens qui n’y croient pas ! »
+						</p>
+					</div>
 				</div>
-				<div class="w-col w-col-2"></div>
 			</div>
 			<!-- Page 21 -->
 			<div class="columnssection w-row">
-				<div class="w-col w-col-2"></div>
-				<div class="w-col w-col-5">
-					<h1>Serge Blanco, le symbole</h1>
-					<p  class="colparagraph">
-						<strong class="lettrine">« Il</strong> est LE French flair. » 
-						C’est avec ces mots que Denis Charvet, trois-quarts centre aux 23 sélections, nous résume le poids de Serge Blanco dans le rugby français. 
-						Insaisissable, imprévisible, un modèle…  Coéquipiers ou simples spectateurs, ils ont tous un souvenir de l’une de ses actions de légende.
-					</p> 
-					<p class="colparagraph">
-						Philippe Saint-André a assisté depuis le banc de touche à la course fantastique du natif de Caracas face à l’Australie en 1990. 
-						Il s’en émerveille encore : « Ce qui est incroyable, c'est qu'il n’était pas le plus rapide, note le directeur du rugby au MHR. 
-						David Campese et d’autres joueurs qui lui courent après vont plus vite que lui. Mais une feinte de passe à droite, à gauche, un raffut, une double accélération », et il efface tout le monde pour inscrire un essai de 100 mètres. 
-					</p>
-
-					<p class="colparagraph">	
-					Serge Blanco fait partie de ces joueurs qui peuvent allumer une mèche à tout moment et à partir d’un rien. 
-					Si n’importe quel amateur de rugby veut reproduire ses inspirations et ses feintes chaloupées, ils sont peu à pouvoir se targuer d’avoir de telles aptitudes physiques. 
-					« C'est un modèle pour toute une génération, mais on ne peut pas jouer comme Serge Blanco, admet en toute humilité Jean-Luc Sadourny, qui lui a succédé au poste d’arrière en équipe de France. 
-					Je n’ai pas son jeu ni son aura. J’ai essayé d’être comme lui, mais avec mes qualités. »
-					</p>
-				</div>
-				<div class="w-col w-col-3 a-img-txt">
-					<img src="images/Page_21.png" loading="lazy" alt="" class="a-img">
-					<span class="a-txt noir">
-						<ul>
+				<div class="w-col w-col-12 contenant">
+					<!-- DG c'est pas la photo du chemin de fer !!-->
+					<img src="images/Page_21_recoupee.png" loading="lazy" alt="" class="a-img">
+					<div class="texte-haut-droite">
+						<h1>Serge Blanco, le symbole</h1>
+						<p class="colparagraph">
+							<strong class="lettrine">« Il</strong> est LE French flair. » 
+							C’est avec ces mots que Denis Charvet, trois-quarts centre aux 23 sélections, nous résume le poids de Serge Blanco dans le rugby français. 
+							Insaisissable, imprévisible, un modèle…  Coéquipiers ou simples spectateurs, ils ont tous un souvenir de l’une de ses actions de légende.
+						</p> 
+						<p class="colparagraph">
+							Philippe Saint-André a assisté depuis le banc de touche à la course fantastique du natif de Caracas face à l’Australie en 1990. 
+							Il s’en émerveille encore : « Ce qui est incroyable, c'est qu'il n’était pas le plus rapide, note le directeur du rugby au MHR. 
+							David Campese et d’autres joueurs qui lui courent après vont plus vite que lui. Mais une feinte de passe à droite, à gauche, un raffut, une double accélération », et il efface tout le monde pour inscrire un essai de 100 mètres. 
+						</p>
+						<p class="colparagraph">	
+						Serge Blanco fait partie de ces joueurs qui peuvent allumer une mèche à tout moment et à partir d’un rien. 
+						Si n’importe quel amateur de rugby veut reproduire ses inspirations et ses feintes chaloupées, ils sont peu à pouvoir se targuer d’avoir de telles aptitudes physiques. 
+						« C'est un modèle pour toute une génération, mais on ne peut pas jouer comme Serge Blanco, admet en toute humilité Jean-Luc Sadourny, qui lui a succédé au poste d’arrière en équipe de France. 
+						Je n’ai pas son jeu ni son aura. J’ai essayé d’être comme lui, mais avec mes qualités. »
+						</p>
+						<ul class="joueur">
 							<li>Né le 31 août 1958</li>
 							<li>1980-1991 : carrière en EDF</li>
 							<li>2 grand chelem (81 et 87)</li>
 							<li>vice champion du monde 87</li>
 						</ul>
-					</span>
+					</div>
 				</div>
-				<div class="w-col w-col-2"></div>
 			</div>
 			<!-- Page 22 -->
 			<div class="columnssection w-row">
@@ -715,7 +710,6 @@
 						</p>
 					</div>
 				</div>
-				<div class="w-col w-col-2"></div>
 			</div>
 		</div>
 		<div class="chap1">
@@ -785,6 +779,7 @@
 							par contre c'est un peu grand comme picto non ?
 							et où est la bande son ? 
 							DG il vous suffit de changer l'attribut src de la balise <audio>
+							la classe css définie dans css/frenchflair.css s'appelle audio pour mettreplus grand il suffit de changer le width le height s'adaptera
 						-->
 							<img src="images/Page_35.png" loading="lazy" alt="" onclick="play(35)" class="audio">
 							<audio id="audio35" src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"></audio>
@@ -797,16 +792,7 @@
 			<div class="columnssection w-row">
 				
 				<div class="w-col w-col-12">
-					<img src="images/Page_36.png" loading="lazy" alt="" usemap="#map36" class="map">
-					<map name="map36">
-						<area shape="poly" coords="820,675,985,764,985,935,835,1023,689,935,691,758,986,765" alt="Jacques Brunel" onclick="alert('Jacques Brunel')">
-						<area shape="poly" coords="1161,677,1305,767,1305,937,1151,1023,1007,932,1008,765" alt="Guy Novès">
-						<area shape="poly" coords="996,955,1146,1045,1144,1217,993,1293,844,1212,849,1040" alt="Philippe Saint-André">
-						<area alt="% victoire Jacques Brunel" title="" href="" coords="133,774,271,774,271,870,133,870" shape="poly">
-						<area alt="charnières utilisées Jacques Brunel" title="" href="" coords="1492,820,1656,820,1656,920,1492,920" shape="poly">
-						<area alt="points encaissés Jacques Brunel" title="" href="" coords="1393,1213,1641,1213,1641,1325,1390,1324" shape="poly">
-						<area alt="points marqués Jacques Brunel" title="" href="" coords="304,1212,561,1212,559,1322,304,1322" shape="poly">
-					  </map>
+					<img src="images/Page_36.png" loading="lazy" alt="">
 				</div>
 			
 			</div>
@@ -1106,14 +1092,15 @@
 	<script src="js/carousel.js" type="text/javascript"></script>
 	<script src="js/script.min.js" type="text/javascript"></script>
 	<script src="js/maphighlight.js" type="text/javascript"></script>
-	<script type="text/javascript">$(function() {
-		$('.map').maphilight();
-	});</script>
-	<script>
+	<script type="text/javascript">
+		$(function() {
+			$('.map').maphilight();
+		});
 		let play = function(id){
 			document.getElementById("audio"+id).play();
 		}
 	</script>
+	<script src="js/responsivemap.js" type="text/javascript"></script>
 	<!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>
