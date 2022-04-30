@@ -169,10 +169,11 @@ h1{
     font-weight: bold;
     font-size:1.5em;
     width: 220px;
-    padding:5px;
+    padding:10px 5px 5px;
     position:absolute;
     top:30px;
-    left:38%
+    left:38%;
+    text-align:center;
 }
 
 .container {
@@ -231,7 +232,7 @@ h1{
 .legende-droite-haut {
     float: right;
     position: absolute;
-    right: 0px;
+    right: 10px;
     top: 0px;
     z-index: 1000;
     background-color: #FFFFFF;
@@ -245,7 +246,7 @@ h1{
 .legende-droite-bas {
     float: right;
     position: absolute;
-    right: 0px;
+    right: 10px;
     bottom: 0px;
     z-index: 1000;
     background-color: #FFFFFF;
@@ -259,7 +260,7 @@ h1{
 .legende-gauche-haut {
     float: left;
     position: absolute;
-    left: 0px;
+    left: 10px;
     top: 0px;
     z-index: 1000;
     background-color: #FFFFFF;
@@ -506,19 +507,17 @@ h1{
 .audio {
     width:200px;
 }
-#texte-jamie-wall {
+.texte-etranger{
     position: absolute;
     top: 35%;
-    width: 50%;
+    width: 51%;
     text-align:justify;
-    left:5%;
+}
+#texte-jamie-wall {
+    left:4.5%;
 }
 #texte-rob-kitson {
-    position: absolute;
-    top: 35%;
-    width: 50%;
-    text-align:justify;
-    left:45%;
+    left:44.5%;
 }
 .droite {
     text-align:right;
@@ -528,7 +527,9 @@ h2.etranger {
     color: white;
     font-weight: bold;
     font-size:1.6em;
-    padding:5px 10px;
+    padding:10px 10px 5px ;
+    margin-bottom:40px;
+    text-align:center;
 }
 ul.joueur {
     margin-bottom:20px;
@@ -588,6 +589,12 @@ ul.joueur li {
 .pt-50{
     padding-top: 50px;
 }
+.pt-70{
+    padding-top: 70px;
+}
+.pt-80{
+    padding-top: 80px;
+}
 .pt-100{
     padding-top: 100px;
 }
@@ -602,4 +609,7 @@ ul.joueur li {
 }
 .pb-50{
     padding-bottom: 50px;
+}
+.nopr {
+    padding-right: 0px !important;
 }
