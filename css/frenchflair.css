@@ -421,7 +421,7 @@ h1{
     -moz-box-shadow: 1px 1px 2px #e6e6e6;
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
-    background: #fff url(../images/bgimg.jpg) no-repeat center center;
+    background: #fff;
 }
 .view .mask,.view .content {
     width: 300px;
@@ -524,6 +524,34 @@ h2.etranger {
     font-size:1.6em;
     padding:5px 10px;
 }
+ul.joueur {
+    margin-bottom:20px;
+}
 ul.joueur li {
     font-size:17px !important;
+    line-height:26px;
+}
+.mt-20 {
+    margin-top:20px;
+}
+.mt-30 {
+    margin-top:30px;
+}
+.mt-40 {
+    margin-top:40px;
+}
+.mt-50 {
+    margin-top:50px;
+}
+#texte-serge-blanco {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 45%;
+}
+.w20{
+    width: 20px;
+}
+.w40{
+    width: 40px;
 }
