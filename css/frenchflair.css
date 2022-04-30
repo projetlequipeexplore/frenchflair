@@ -549,6 +549,9 @@ ul.joueur li {
 .mt-50 {
     margin-top:50px;
 }
+.mb-30 {
+    margin-bottom:30px;
+}
 #texte-serge-blanco {
     position: absolute;
     top: 10%;
