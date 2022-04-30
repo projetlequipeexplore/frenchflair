@@ -447,13 +447,12 @@ h1{
     margin: 20px 0 0 0;
 }
 .view p {
-    font-family: Georgia, serif;
-    font-style: italic;
     font-size: 12px;
     position: relative;
     color: #000000;
     padding: 10px 20px 20px;
     text-align: center;
+    vertical-align: middle;
 }
 .view a.info {
     display: inline-block;
