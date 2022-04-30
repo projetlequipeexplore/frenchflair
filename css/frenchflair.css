@@ -305,7 +305,7 @@ h1{
     border: 0px solid #fff;
     overflow: hidden;
     position: relative;
-    text-align: center;
+    text-align: justify;
     cursor: default;
     background: white ;
 }
@@ -417,7 +417,7 @@ h1{
     border: 1px solid #fff;
     overflow: hidden;
     position: relative;
-    text-align: center;
+    text-align: justify;
     -webkit-box-shadow: 1px 1px 2px #e6e6e6;
     -moz-box-shadow: 1px 1px 2px #e6e6e6;
     box-shadow: 1px 1px 2px #e6e6e6;
@@ -451,7 +451,6 @@ h1{
     position: relative;
     color: #000000;
     padding: 10px 20px 20px;
-    text-align: center;
     vertical-align: middle;
 }
 .view a.info {
@@ -551,6 +550,12 @@ h2.etranger {
 .mt-70 {
     margin-top:70px;
 }
+.mt-80 {
+    margin-top:80px;
+}
+.mt-90 {
+    margin-top:90px;
+}
 .mt-100 {
     margin-top:100px;
 }
@@ -641,8 +646,12 @@ h2.etranger {
 .nomb {
     margin-bottom: 0px !important;
 }
-span.une {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
+ul.une{
+    padding:0px;
+    text-align:justify;
+}
+ul.une li {
+    display: flex;
+    /* Column | row */
+    list-style: none;
 }
