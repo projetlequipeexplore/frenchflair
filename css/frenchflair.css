@@ -505,7 +505,7 @@ h1{
     width: 20%;
 }
 .audio {
-    width:200px;
+    width:130px;
 }
 .texte-etranger{
     position: absolute;
@@ -530,13 +530,6 @@ h2.etranger {
     padding:10px 10px 5px ;
     margin-bottom:40px;
     text-align:center;
-}
-ul.joueur {
-    margin-bottom:20px;
-}
-ul.joueur li {
-    font-size:17px !important;
-    line-height:26px;
 }
 .mt-20 {
     margin-top:20px;
@@ -573,6 +566,15 @@ ul.joueur li {
     top: 10%;
     right: 10%;
     width: 45%;
+}
+#texte-serge-blanco .opaque{
+    background-color: #FFFFFF;
+    opacity:0.65;
+    font-weight:900;
+    padding: 20px 0px 10px;
+}
+#texte-serge-blanco .opaque .colparagraph {
+    padding: 0px 20px;
 }
 .w20{
     width: 20px;
