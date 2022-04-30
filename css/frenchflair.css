@@ -497,6 +497,12 @@ h1{
     right: 10%;
     width: 25%;
 }
+.texte-bas-droite {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    width: 20%;
+}
 .audio {
     width:200px;
 }
