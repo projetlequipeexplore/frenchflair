@@ -26,7 +26,7 @@ function loadVideo(videoId, id) {
 //    after the API code downloads.
 function onYouTubeIframeAPIReady() {
     // on remontre toutes les photos
-    $("#div_"+id+" img").css({
+    $(".photo-legende").css({
         opacity:1
     });
     player = new YT.Player('player_'+id, {
