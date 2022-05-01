@@ -562,6 +562,12 @@ h2.etranger {
 .mb-50 {
     margin-bottom:50px;
 }
+.mb-70 {
+    margin-bottom:70px;
+}
+.mb-100 {
+    margin-bottom:100px;
+}
 .ml-20 {
     margin-left:20px;
 }
@@ -630,6 +636,12 @@ h2.etranger {
 }
 .pb-50{
     padding-bottom: 50px;
+}
+.pb-70{
+    padding-bottom: 70px;
+}
+.pb-100{
+    padding-bottom: 100px;
 }
 .nopr {
     padding-right: 0px !important;
