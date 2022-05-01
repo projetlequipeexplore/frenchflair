@@ -18,7 +18,7 @@ $(function() {
 function loadVideo(videoId, id) {
     playerId = videoId;
     console.log(id);
-    document.getElementById("div_"+id).innerHTML = "<div id='player_"+id+"'></div>";
+    $("#div_"+id).append("<div id='player_"+id+"' class='div-player'></div>");
     onYouTubeIframeAPIReady();
 }
 
@@ -29,6 +29,13 @@ function onYouTubeIframeAPIReady() {
         height: '390',
         width: '640',
         videoId: playerId,
+        enablejsapi:1,
+        playerVars: {
+            'autoplay': 1,
+            'controls': 1,
+            'showinfo': 0,
+            'rel': 0
+        },
         events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
@@ -46,12 +53,13 @@ function onPlayerReady(event) {
 //    the player should play for six seconds and then stop.
 var done = false;
 function onPlayerStateChange(event) {
+    console.log(event.data);
     if (event.data == YT.PlayerState.PLAYING && !done) {
-        //setTimeout(stopVideo, 6000);
+        //setTimeout(stopVideo, 100);
         done = true;
+    } else if (event.data == YT.PlayerState.ENDED){
+        $(".div-player").remove();
+    } else if (event.data == YT.PlayerState.PAUSED){
+        $(".div-player").remove();
     }
-}
-function stopVideo() {
-    player.stopVideo();
-    alert("je remets la photo");
 }
