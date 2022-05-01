@@ -1,4 +1,4 @@
-@media (max-width: 992px) {
+@media (max-width: 1366px) {
     .texte-bas-droite {
         position: absolute;
         bottom: 14%;
@@ -8,9 +8,9 @@
 
     .colparagraph {
         padding: 5px;
-        font-size: 17px;
-        line-height: 26px;
+        line-height: 25px;
         text-align: justify;
+        margin-bottom: 0px;
     }
 
     .legende-droite-bas {
@@ -40,7 +40,6 @@
         font-weight: 900;
         width: 45%;
     }
-
     .legende-droite-haut {
         float: right;
         position: absolute;
@@ -52,14 +51,33 @@
         padding: 10px 5px;
         color: #000000;
         font-weight: 900;
-        width: 45%;
+        width: 40%;
     }
 
     .texte-etranger {
         position: absolute;
         top: 28%;
-        width: 44%;
+        width: 42%;
         text-align: justify;
+    }
+
+    .texte-etranger .citation {
+        font-style: italic;
+    }
+
+    .texte-etranger .colparagraph {
+        font-size: 14px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    #carousel-legende {
+        margin: 20px 20px 10px;
+        text-align: center;
+    }
+
+    .mt-50r {
+        margin-top: 50px;
     }
 
     #spacer {
