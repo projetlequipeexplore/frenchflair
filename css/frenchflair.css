@@ -9,8 +9,12 @@ body {
     text-align:justify;
 }
 
-.colparagraph .citation {
+.citation {
     font-style: italic;
+    padding-right: 20px;
+    font-size: 17px !important;
+    line-height: 26px;
+    text-align:justify;
 }
 
 h1{
