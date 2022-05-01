@@ -17,6 +17,15 @@ body {
     text-align:justify;
 }
 
+.gras {
+    padding-right: 20px;
+    font-size: 17px;
+    line-height: 26px;
+    text-align:justify;
+    font-weight: bold;
+}
+    
+
 h1{
     font-size:2.5em;
     font-weight: bold;
