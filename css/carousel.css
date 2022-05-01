@@ -46,17 +46,16 @@ body {
   cursor: pointer;
   background-color: #fff;
   font-size: 18px;
+  top: 35%;
 }
 .btn:active {
   transform: scale(1.1);
 }
 .btn-prev {
-  top: 45%;
   left: 2%;
 }
 
 .btn-next {
-  top: 45%;
   right: 2%;
 }
 
@@ -64,4 +63,8 @@ body {
   padding: 20px 10px;
   width:90%;
   margin: 0px auto;
+}
+
+#carousel-legende {
+  margin: 20px 70px 10px ;
 }

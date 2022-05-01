@@ -477,19 +477,19 @@ h1{
 #texte-bernard-laporte{
     position: absolute;
     top: 45%;
-    left: 7%;
+    left: 5%;
     width: 28%;
 }
 #texte-marc-lievremont {
     position: absolute;
-    top: 18%;
-    right: 7%;
+    top: 3%;
+    right: 9%;
     width: 28%;
 }
 #titre-31 {
     position: absolute;
     width: 400px;
-    top: 260px;
+    top: 7%;
     left: 35%;
 }
 .texte-bas-droite {
