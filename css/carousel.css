@@ -17,6 +17,7 @@ body {
   position: relative;
   overflow: hidden; /* <===  */
   border-radius: 15px;
+  margin: 0px auto;
 }
 
 .slide {
@@ -56,4 +57,10 @@ body {
 .btn-next {
   top: 45%;
   right: 2%;
+}
+
+.carousel-caption {
+  padding: 20px 10px;
+  width:90%;
+  margin: 0px auto;
 }
