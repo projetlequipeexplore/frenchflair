@@ -12,7 +12,7 @@ body {
 .citation {
     font-style: italic;
     padding-right: 20px;
-    font-size: 17px !important;
+    font-size: 17px;
     line-height: 26px;
     text-align:justify;
 }
@@ -21,25 +21,12 @@ h1{
     font-size:2.5em;
     font-weight: bold;
 }
-.chap0 .citation {
-    font-size: 2em;
-    font-weight: bold;
-    font-style: italic;
-    line-height:40px;
-    text-align:center;
-}
+
 .chap1 {
     background-color:#1c4587ff !important;
     color:white;
 }
-.chap1 .citation {
-    font-size: 2em;
-    font-weight: bold;
-    font-style: italic;
-    color:#e06666;
-    line-height:40px;
-    text-align:center;
-}
+
 .chap1 .author {
     color:#e06666;
 }
@@ -48,14 +35,7 @@ h1{
     background-color:#fff2cc!important;
     color:black
 }
-.chap2 .citation {
-    font-size: 2em;
-    font-weight: bold;
-    font-style: italic;
-    color:#000000;
-    line-height:40px;
-    text-align:center;
-}
+
 .chap2 .author {
     color:#000000;
 }
