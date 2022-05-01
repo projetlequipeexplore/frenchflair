@@ -88,6 +88,25 @@
         left: 30%;
     }
 
+    #texte-marc-lievremont {
+        top: -9%;
+        right: 1%;
+        width: 37%;
+    }
+
+    #texte-bernard-laporte {
+        position: absolute;
+        top: 36%;
+        left: 1%;
+        width: 39%;
+    }
+
+    #titre-31 {
+        width: 400px;
+        top: 7%;
+        left: 30%;
+    }
+
     #spacer {
         height:100px !important;
     }
