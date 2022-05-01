@@ -655,3 +655,6 @@ ul.une li {
     /* Column | row */
     list-style: none;
 }
+.video-legende {
+    display:none;
+}
