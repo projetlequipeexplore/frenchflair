@@ -18,13 +18,17 @@ $(function() {
 function loadVideo(videoId, id) {
     playerId = videoId;
     console.log(id);
-    $("#div_"+id).append("<div id='player_"+id+"' class='div-player'></div>");
+    $("#displayed-video").html("<div id='player_"+id+"' class='div-player' style='display:none'></div>");
     onYouTubeIframeAPIReady();
 }
 
 // 3. This function creates an <iframe> (and YouTube player)
 //    after the API code downloads.
 function onYouTubeIframeAPIReady() {
+    // on remontre toutes les photos
+    $("#div_"+id+" img").css({
+        opacity:1
+    });
     player = new YT.Player('player_'+id, {
         height: '390',
         width: '640',
@@ -34,7 +38,8 @@ function onYouTubeIframeAPIReady() {
             'autoplay': 1,
             'controls': 1,
             'showinfo': 0,
-            'rel': 0
+            'rel': 0,
+            'wmode': "opaque"
         },
         events: {
             'onReady': onPlayerReady,
@@ -45,6 +50,14 @@ function onYouTubeIframeAPIReady() {
 
 // 4. The API will call this function when the video player is ready.
 function onPlayerReady(event) {
+    // on cache l'image
+    $("#div_"+id+" img").css({
+        opacity:0.5
+    });
+    // on fait apparaitre le player
+    $("#displayed-video").show();
+    $("#player_"+id).fadeIn('slow');
+    // on lance la vidéo
     event.target.playVideo();
 }
 
@@ -57,9 +70,10 @@ function onPlayerStateChange(event) {
     if (event.data == YT.PlayerState.PLAYING && !done) {
         //setTimeout(stopVideo, 100);
         done = true;
-    } else if (event.data == YT.PlayerState.ENDED){
-        $(".div-player").remove();
-    } else if (event.data == YT.PlayerState.PAUSED){
-        $(".div-player").remove();
+    } else if (event.data == YT.PlayerState.ENDED || event.data == YT.PlayerState.PAUSED){
+        $("#displayed-video").html('').hide();
+        $("#div_"+id+" img").fadeIn().css({
+            opacity:1
+        });
     }
 }

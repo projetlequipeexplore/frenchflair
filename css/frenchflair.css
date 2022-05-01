@@ -658,3 +658,13 @@ ul.une li {
 .video-legende {
     display:none;
 }
+#displayed-video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    display:none;
+    z-index:200;
+}
