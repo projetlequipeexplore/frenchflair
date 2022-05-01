@@ -391,9 +391,6 @@
 					</div>
 				</div>
 				<div class="w-col w-col-6 contenant">
-					<!-- DG c'était pas la bonne extension .png au lieu de .jpg -->
-					<!-- DG image trop haute il faudrait couper les marges en haut et bas et faire en sorte que 20_1 et 20_2 aient la même taille -->
-					<!-- ou alors me dire si il faut écrire le texte sur l'image i.e sur fonds ocre donc en blanc ?-->
 					<img src="images/Page_20_2.png" loading="lazy" alt="">		
 					<div id="texte-jamie-wall" class="texte-etranger">
 						<h2 class="etranger">Jamie Wall, journaliste indépendant</h2>
@@ -454,52 +451,22 @@
 			<!-- Page 23 -->
 			<div class="columnssection w-row">
 				<div class="w-col w-col-1"></div>
-				<div class="w-col w-col-2 div-legende" data-id="23_1">
-					<img src="images/Page 23_1.png" class="photo-legende" data-id="23_1"/>
+				<div class="w-col w-col-2 div-legende" data-id="23_1" id="div_23_1">
+					<img src="images/Page 23_1.png" class="photo-legende" data-id="23_1" data-videoid="fchFH7NYmPA"/>
 				</div>
-				<div class="w-col w-col-2 div-legende" data-id="23_2">
-					<img src="images/Page 23_2.png" class="photo-legende" data-id="23_2"/>
+				<div class="w-col w-col-2 div-legende" data-id="23_2" id="div_23_2">
+					<img src="images/Page 23_2.png" class="photo-legende" data-id="23_2" data-videoid="Ri4Uy4ojrnk"/>
 				</div>
-				<div class="w-col w-col-2 div-legende" data-id="23_3">
-					<img src="images/Page 23_3.png" class="photo-legende" data-id="23_3"/>
+				<div class="w-col w-col-2 div-legende" data-id="23_3" id="div_23_3">
+					<img src="images/Page 23_3.png" class="photo-legende" data-id="23_3" data-videoid="-7H4zHiReH4"/>
 				</div>
-				<div class="w-col w-col-2 div-legende" data-id="23_4">
-					<img src="images/Page 23_4.png" class="photo-legende" data-id="23_4"/>
+				<div class="w-col w-col-2 div-legende" data-id="23_4" id="div_23_4">
+					<img src="images/Page 23_4.png" class="photo-legende" data-id="23_4" data-videoid="SOubfLM1DU8"/>
 				</div>
-				<div class="w-col w-col-2 div-legende" data-id="23_5">
-					<img src="images/Page 23_5.png" class="photo-legende" data-id="23_5"/>
+				<div class="w-col w-col-2 div-legende" data-id="23_5" id="div_23_5">
+					<img src="images/Page 23_5.png" class="photo-legende" data-id="23_5" data-videoid="yJ2USbOqFGA"/>
 				</div>
 				<div class="w-col w-col-1"></div>
-				<!-- video boniface -->
-				<div class="containersection w-container video-legende" data-id="23_1">
-					<div style="padding-top:55.95744680851064%" class="w-video w-embed">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/fchFH7NYmPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-				</div>
-				<!-- Embed Jo Maso -->
-				<div class="containersection w-container video-legende" data-id="23_2">
-					<div style="padding-top:55.95744680851064%" class="w-video w-embed">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/Ri4Uy4ojrnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-				</div>
-				<!-- video blanco -->
-				<div class="containersection w-container video-legende" data-id="23_3">
-					<div style="padding-top:55.95744680851064%" class="w-video w-embed">	
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/-7H4zHiReH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-				</div>
-				<!-- Embed  PSA -->
-				<div class="containersection w-container video-legende" data-id="23_4">
-					<div style="padding-top:55.95744680851064%" class="w-video w-embed">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/SOubfLM1DU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-				</div>
-				<!-- Embed Dominici -->
-				<div class="containersection w-container video-legende"  data-id="23_5">
-					<div style="padding-top:55.95744680851064%" class="w-video w-embed">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/yJ2USbOqFGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-				</div>
 			</div>
 			<!-- Page 24 -->			
 			<div class="columnssection w-row mt-70">
@@ -1152,6 +1119,7 @@
 	<script src="js/maphighlight.js" type="text/javascript"></script>
 	<script src="js/arborescence.js" type="text/javascript"></script>
 	<script src="js/video-legende.js" type="text/javascript"></script>
+	<script src="https://www.youtube.com/iframe_api" type="text/javascript"></script>
 	<!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>

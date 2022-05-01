@@ -2,34 +2,33 @@
  * Code qui gère l'arborescence page 23
  * Dépend de la librairie js/jquery-3.5.1.min 
  */
- $(function() {
+ var player, playerId, id;
+$(function() {
     $('.photo-legende').off("click").on("click", function(){
-        id = $(this).data("id");
+        /*id = $(this).data("id");
         video = $(".video-legende[data-id="+id+"]").html();
         width = $(this).css("width");
-        $(".div-legende[data-id="+id+"]").css("width", width*2).html(video);
+        $(".div-legende[data-id="+id+"]").css("width", width*2).html(video);*/
+        id = $(this).data("id");
+        videoId = $(this).data("videoid");
+        loadVideo(videoId, id);
     });
 });
 
-function myFunction() {
-    document.getElementById("video").innerHTML = "<div id='player'></div>";
-
-    // 2. This code loads the IFrame Player API code asynchronously.
-    var tag = document.createElement('script');
-
-    tag.src = "https://www.youtube.com/iframe_api";
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+function loadVideo(videoId, id) {
+    playerId = videoId;
+    console.log(id);
+    document.getElementById("div_"+id).innerHTML = "<div id='player_"+id+"'></div>";
+    onYouTubeIframeAPIReady();
 }
 
 // 3. This function creates an <iframe> (and YouTube player)
 //    after the API code downloads.
-var player;
 function onYouTubeIframeAPIReady() {
-    player = new YT.Player('player', {
+    player = new YT.Player('player_'+id, {
         height: '390',
         width: '640',
-        videoId: 'M7lc1UVf-VE',
+        videoId: playerId,
         events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
@@ -54,4 +53,5 @@ function onPlayerStateChange(event) {
 }
 function stopVideo() {
     player.stopVideo();
+    alert("je remets la photo");
 }

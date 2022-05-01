@@ -6,9 +6,7 @@ var audioOn = new Array();
 let play = function(id){
     collAudio = document.getElementsByClassName('audiosrc');
     Array.prototype.filter.call(collAudio, function(audio){
-        console.log(audio);
         fullId = $(audio).attr("id");
-        console.log(fullId);
         document.getElementById(fullId).pause();
     });
     if($.inArray(id, audioOn) == -1){
